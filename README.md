@@ -1,4 +1,4 @@
-# Issues
+# What is this
 
 A simple project in elixir to fetch issues from github in parallel with functional programming and actor pattern
 
@@ -10,10 +10,10 @@ A simple project in elixir to fetch issues from github in parallel with function
 
 ## Set up
 
-mix deps
-mix deps.get
-mix deps.compile
-mix test
+1. mix deps
+2. mix deps.get
+3. mix deps.compile
+4. mix test
 
-# Execute
+## Execute
 iex lib/issues/cli.ex
