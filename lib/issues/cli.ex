@@ -31,8 +31,7 @@ defmodule Issues.Cli do
     def process({user, project, _count}) do
         Issues.GithubIssues.fetch(user, project)
             |>  decode_response
-            |> convert_to_list_of_hasdicts
-            |> sort_into_ascending_order
+            |> convert_to_list_of_hasdicts            
     end
 
     def decode_response({:ok, body}), do: body
