@@ -20,4 +20,6 @@ mix test
 
 ## Execute
 
+```
 iex lib/issues/cli.ex
+```
