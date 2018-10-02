@@ -5,7 +5,7 @@ A simple project in elixir to fetch issues from github in parallel with function
 ## TODO
 
 - [x] Parse cli input
-- [ ] Learn to install dependencies/packages
+- [x] Learn to install dependencies/packages
 - [ ] Consume github APi
 
 
